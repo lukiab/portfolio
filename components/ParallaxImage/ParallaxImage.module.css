@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-hover);
+}
+
+.imageWrapper {
+  position: absolute;
+  inset: -15%;
+  width: 130%;
+  height: 130%;
+}
+
+.image {
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}

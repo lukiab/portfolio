@@ -1,0 +1,16 @@
+.grid {
+  column-count: var(--columns, 3);
+  column-gap: var(--spacing-lg);
+}
+
+@media (max-width: 1200px) {
+  .grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .grid {
+    column-count: 1;
+  }
+}

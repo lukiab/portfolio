@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-lg) var(--spacing-xl);
+  align-items: center;
+}
+
+.logo {
+  transition: opacity var(--transition-base);
+}
+
+.logo:hover {
+  opacity: 0.6;
+}
+
+.logoText {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--color-secondary);
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 640px) {
+  .container {
+    gap: var(--spacing-md) var(--spacing-lg);
+  }
+
+  .logoText {
+    font-size: 1rem;
+  }
+}
