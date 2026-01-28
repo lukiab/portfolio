@@ -7,7 +7,7 @@ import styles from './page.module.css';
 
 export const metadata = {
   title: 'About | Lukia Sophia Burbaum',
-  description: 'Creative Director, Producer, and Project Manager based in Los Angeles. Learn more about my background and experience.',
+  description: 'Creative Director, Producer, and Project Manager based in Copenhagen. Learn more about my background and experience.',
 };
 
 export default function AboutPage() {
@@ -37,7 +37,7 @@ export default function AboutPage() {
           <FadeIn delay={0.1}>
             <div className={styles.bio}>
               <p>
-                I'm a Creative Director, Producer, and Project Manager based in Los Angeles,
+                I&apos;m a Creative Director, Producer, and Project Manager based in Copenhagen,
                 specializing in editorial, commercial, and digital content creation.
               </p>
               <p>

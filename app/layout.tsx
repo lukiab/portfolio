@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from "next/script";
 import Sidebar from '@/components/Sidebar';
 import '@/styles/globals.css';
 
@@ -21,6 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head />
       <body>
         <Sidebar />
         <main className="main-content">
