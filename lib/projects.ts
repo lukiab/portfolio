@@ -292,39 +292,73 @@ export const projects: Project[] = [
 export const cvEntries: CVEntry[] = [
   {
     year: '2022 - Present',
-    role: 'Creative Director & Producer',
-    company: 'Freelance',
-    description: 'Independent creative direction and production for editorial, commercial, and brand clients.',
+    role: 'Freelance Creative Producer, Director & Project Manager',
+    company: '',
+    description: 'Leading creative direction and production, and managing digital marketing teams. Key projects include social media management of Penny Deutschland, full production for CPH-based fashion brand Plante Inc, and AI-ready product shooting for MyJournalto_.',
   },
   {
-    year: '2020 - 2022',
-    role: 'Senior Project Manager',
-    company: 'Creative Agency',
-    description: 'Led project management for digital marketing campaigns and creative productions.',
-  },
-  {
-    year: '2018 - 2020',
-    role: 'Production Coordinator',
-    company: 'Fashion Publication',
-    description: 'Coordinated editorial and commercial photo productions for print and digital.',
-  },
-  {
-    year: '2016 - 2018',
-    role: 'Production Assistant',
-    company: 'Photography Studio',
-    description: 'Assisted on commercial and editorial shoots, managing logistics and on-set operations.',
+    year: '2021 - 2025',
+    role: 'Client Coordination, Creative Project Management, Digital Marketing & Content',
+    company: 'DEPT\u00AE Agency, Copenhagen',
+    description: 'Project manager for global clients including Uber, eBay, BOSCH and Tiger of Sweden. Managed cross-functional teams driving digital marketing strategy, media planning, and creative production. Coordinated Paid Social, SEA and SEO implementation. Created and localized content in English and German for 40+ international brands.',
   },
 ];
 
+export interface Education {
+  degree: string;
+  institution: string;
+  years?: string;
+  detail?: string;
+}
+
+export const education: Education[] = [
+  {
+    degree: 'MSc International Marketing & Management',
+    institution: 'Copenhagen Business School, Denmark',
+    detail: 'Thesis: The Influence of AI-Driven Digital Marketing on TikTok',
+  },
+  {
+    degree: 'BSc Economics & Business Administration',
+    institution: 'Eberhard Karls University T\u00FCbingen, Germany & University of Oregon, USA',
+    detail: 'Focus: Marketing & International Business; Minor in International Business Communication',
+  },
+];
+
+export const skills = {
+  professional: [
+    'Digital Marketing Strategy',
+    'Media Production',
+    'Content & Localization',
+    'Project Management',
+    'Cross-Cultural Communication',
+    'Multilingual Copywriting',
+  ],
+  technical: [
+    'AI Prompting & Optimization',
+    'Photography & Videography',
+    'Adobe Lightroom',
+    'CapCut',
+    'Canva',
+    'Google Ads',
+    'Meta Ads Manager',
+  ],
+  languages: [
+    'German (native)',
+    'English (fluent)',
+    'Greek, Danish & French (conversational)',
+    'Spanish (basics)',
+  ],
+};
+
 export const clients = [
-  'Vogue',
-  'Architectural Digest',
-  'Allure',
-  'Nike',
-  'Apple',
-  'Glossier',
-  'Everlane',
-  'The Row',
+  'Penny',
+  'Comwell',
+  'Tiger of Sweden',
+  'MyJournalto_',
+  'Uber',
+  'BOSCH',
+  'eBay',
+  'Plante Inc',
 ];
 
 export function getProjectsByCategory(category: ProjectCategory): Project[] {

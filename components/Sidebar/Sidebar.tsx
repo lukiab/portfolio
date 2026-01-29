@@ -102,9 +102,11 @@ export default function Sidebar() {
                     <button
                       className={`${styles.navLink} ${styles.navParent} ${isActive(item.href) ? styles.navLinkActive : ''}`}
                       onClick={() => toggleExpand(item.label)}
+                      aria-expanded={!!isExpanded(item)}
+                      aria-label={`${item.label} submenu`}
                     >
                       {item.label}
-                      <span className={`${styles.arrow} ${isExpanded(item) ? styles.arrowExpanded : ''}`}>
+                      <span className={`${styles.arrow} ${isExpanded(item) ? styles.arrowExpanded : ''}`} aria-hidden="true">
                         +
                       </span>
                     </button>

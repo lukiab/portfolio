@@ -20,8 +20,9 @@ export default function ProjectManagementPage() {
         <header className="page-header">
           <h1 className="page-title">Project Management</h1>
           <p className="page-subtitle">
-            Strategic project leadership for digital marketing campaigns and creative productions.
-            From concept to delivery, ensuring seamless execution and measurable results.
+            I ensure smooth processes for any marketing-related topics and a consistent
+            strategy across all channels. With 6+ years of experience managing digital marketing
+            teams and creative productions for over 30 global clients.
           </p>
         </header>
       </FadeIn>

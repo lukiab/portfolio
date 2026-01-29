@@ -16,9 +16,9 @@ export default function DigitalMarketingPage() {
         <header className="page-header">
           <h1 className="page-title">Digital Marketing</h1>
           <p className="page-subtitle">
-            Strategic digital campaign management from planning through execution.
-            Social media strategy, content calendar development, influencer partnerships,
-            and performance analytics.
+            As a project manager for digital marketing, I bring experience across all paid
+            media channels (SEO, SEA, Paid Social, Programmatic) as well as organic social media,
+            ensuring your team achieves its goals.
           </p>
         </header>
       </FadeIn>

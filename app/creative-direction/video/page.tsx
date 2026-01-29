@@ -16,9 +16,9 @@ export default function VideoPage() {
         <header className="page-header">
           <h1 className="page-title">Video Production</h1>
           <p className="page-subtitle">
-            Video production and direction for brand stories, fashion films,
-            and commercial content. From script development through
-            post-production supervision.
+            I direct and produce videos for artists and brands. I plan, shoot, and edit
+            the footage &mdash; handling the full creative production pipeline from concept
+            through final delivery.
           </p>
         </header>
       </FadeIn>

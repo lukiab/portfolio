@@ -16,9 +16,9 @@ export default function CommercialPage() {
         <header className="page-header">
           <h1 className="page-title">Commercial & Product</h1>
           <p className="page-subtitle">
-            Creative direction for commercial and product photography.
-            Developing visual concepts that elevate brands and showcase
-            products with distinction.
+            As a Creative Director, I make your visions come to life. From concept to final
+            asset &mdash; I lead pre-production, coordinate on shooting days, and ensure smooth
+            post-production for commercial and product campaigns.
           </p>
         </header>
       </FadeIn>

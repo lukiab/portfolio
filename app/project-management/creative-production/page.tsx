@@ -16,9 +16,9 @@ export default function CreativeProductionPage() {
         <header className="page-header">
           <h1 className="page-title">Creative Production Management</h1>
           <p className="page-subtitle">
-            End-to-end production management for photo and video shoots.
-            Location scouting, talent coordination, vendor management,
-            budget oversight, and timeline management.
+            As a creative producer, I lead your creative processes. I work either independently
+            or alongside a team of creatives to plan and produce your creative assets &mdash;
+            from pre-production and planning, through shooting imagery &amp; video, to post-production and editing.
           </p>
         </header>
       </FadeIn>

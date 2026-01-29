@@ -12,12 +12,12 @@ export default function HomePage() {
       <FadeIn>
         <header className={styles.hero}>
           <h1 className={styles.heroTitle}>
-            Creative Director, Producer<br />
-            & Project Manager
+            Creative Producer &amp; Director,<br />
+            and Project Manager
           </h1>
           <p className={styles.heroSubtitle}>
-            Crafting visual narratives through editorial, commercial, and digital storytelling.
-            Based in Los Angeles.
+            I combine my experience within both paid media and art to help you create
+            meaningful creatives that tell a story and perform. Based in Copenhagen.
           </p>
         </header>
       </FadeIn>

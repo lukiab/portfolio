@@ -16,9 +16,10 @@ export default function EditorialPage() {
         <header className="page-header">
           <h1 className="page-title">Editorial</h1>
           <p className="page-subtitle">
-            Editorial storytelling for fashion, beauty, and lifestyle publications.
-            Concept development, creative direction, and production for
-            magazine features and digital content.
+            With editorial shoots, I let my creativity flow. These are projects where I
+            fully immerse myself into my aesthetic vision. With my art, I want to tell a story
+            and evoke feelings. I lead the creative and art direction, and handle both
+            pre- and post-production.
           </p>
         </header>
       </FadeIn>

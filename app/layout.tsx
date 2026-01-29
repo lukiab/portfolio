@@ -1,16 +1,15 @@
 import type { Metadata } from 'next';
-import Script from "next/script";
 import Sidebar from '@/components/Sidebar';
 import '@/styles/globals.css';
 
 export const metadata: Metadata = {
-  title: 'Lukia Sophia Burbaum | Creative Director & Producer',
-  description: 'Portfolio of Lukia Sophia Burbaum - Creative Project Manager, Creative Director, and Creative Producer specializing in editorial, commercial, and digital projects.',
-  keywords: ['Creative Director', 'Producer', 'Project Manager', 'Editorial', 'Commercial Photography', 'Fashion'],
+  title: 'Lukia Sophia Burbaum | Creative Producer & Director',
+  description: 'Portfolio of Lukia Sophia Burbaum - Creative Producer & Director, and Project Manager. Combining paid media and art to create meaningful creatives that tell a story and perform.',
+  keywords: ['Creative Producer', 'Creative Director', 'Project Manager', 'Digital Marketing', 'Editorial', 'Commercial Photography'],
   authors: [{ name: 'Lukia Sophia Burbaum' }],
   openGraph: {
-    title: 'Lukia Sophia Burbaum | Creative Director & Producer',
-    description: 'Creative Project Manager, Creative Director, and Creative Producer specializing in editorial, commercial, and digital projects.',
+    title: 'Lukia Sophia Burbaum | Creative Producer & Director',
+    description: 'Creative Producer & Director, and Project Manager. Combining paid media and art to create meaningful creatives that tell a story and perform.',
     type: 'website',
   },
 };
@@ -22,7 +21,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head />
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <meta name="theme-color" content="#FFFFFF" />
+      </head>
       <body>
         <Sidebar />
         <main className="main-content">

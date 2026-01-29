@@ -2,14 +2,15 @@
 
 ## Project Overview
 
-Editorial-style portfolio website for Lukia Sophia Burbaum - Creative Director, Producer, and Project Manager based in Copenhagen.
+Editorial-style portfolio website for Lukia Sophia Burbaum - Creative Producer & Director, and Project Manager based in Copenhagen.
 
 ## Tech Stack
 
-- **Framework**: Next.js 14.2.3 (App Router)
-- **Language**: TypeScript
+- **Framework**: Next.js 16.1.6 (App Router, Turbopack)
+- **Language**: TypeScript (strict)
+- **React**: 19.2.4
 - **Styling**: CSS Modules with CSS custom properties
-- **Animations**: Framer Motion
+- **Animations**: Framer Motion 12.x (with prefers-reduced-motion support)
 - **Fonts**: Cormorant Garamond (serif headlines) + Inter (sans body) via Google Fonts
 
 ## Project Structure
@@ -68,10 +69,28 @@ portfolio/
 
 ### Component Patterns
 
-- All client components use `'use client'` directive
+- Client components use `'use client'` directive (only when hooks/interactivity needed)
 - CSS Modules for component-scoped styles (ComponentName.module.css)
 - Framer Motion for animations with `whileInView` for scroll triggers
-- `FadeIn` wrapper component for consistent entrance animations
+- `FadeIn` wrapper respects `prefers-reduced-motion` via `useReducedMotion()`
+- Focus states use `--focus-ring` CSS variable for consistency
+- `touch-action: manipulation` on all interactive elements
+- `text-wrap: balance` on all headings
+- Font preconnect links in layout `<head>`
+
+### Accessibility
+
+- `aria-expanded` on expandable navigation buttons
+- `aria-label` on icon-only buttons (hamburger menu, nav toggles)
+- `aria-hidden="true"` on decorative elements
+- Visible focus rings via `:focus-visible`
+- `prefers-reduced-motion: reduce` disables all animations
+
+### Next.js 16 Notes
+
+- Dynamic route params are async: `params: Promise<{ id: string }>` + `await params`
+- Pages use server components by default
+- Turbopack used for builds
 
 ## Data Types
 
@@ -115,6 +134,10 @@ npx grab start localhost:3000 --provider @react-grab/claude-code
 ```
 
 Then open http://localhost:2000 (not 3000). Use Cmd+C + click to select elements.
+
+## Clients
+
+Penny, Comwell, Tiger of Sweden, myjournalto, Uber, BSH, eBay
 
 ## ESLint Notes
 

@@ -27,7 +27,7 @@ export default function CVTimeline({ entries }: CVTimelineProps) {
           <div className={styles.year}>{entry.year}</div>
           <div className={styles.content}>
             <h4 className={styles.role}>{entry.role}</h4>
-            <div className={styles.company}>{entry.company}</div>
+            {entry.company && <div className={styles.company}>{entry.company}</div>}
             <p className={styles.description}>{entry.description}</p>
           </div>
         </motion.div>

@@ -21,8 +21,9 @@ export default function CreativeDirectionPage() {
         <header className="page-header">
           <h1 className="page-title">Creative Direction & Production</h1>
           <p className="page-subtitle">
-            Visual storytelling through commercial photography, editorial features,
-            and video production. From concept development to final delivery.
+            From concept to final asset &mdash; I lead pre-production, coordinate on shooting days,
+            and ensure smooth post-production. I handle productions either completely from start to
+            finish, or work with a team of photographers, editors, stylists, and assistants.
           </p>
         </header>
       </FadeIn>
